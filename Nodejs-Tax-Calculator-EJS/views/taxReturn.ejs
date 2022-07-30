@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('includes/head.ejs') %>
+</head>
+<body>
+    <%- include('includes/navigation-menu.ejs') %>   
+    <main>
+        <form class="salary-form" action="/person/taxReturn" method="POST">
+            <div class="form-control">
+                <label for="tax">Enter Salary:</label><br>
+                <input type="text" name="tax" id="tax">
+            </div>
+            <button type="submit">Calculate Tax</button>
+        </form>
+    </main>
+<%- include('includes/end.ejs') %>

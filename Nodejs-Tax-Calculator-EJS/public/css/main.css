@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #cae3f2;
+}
+
+main {
+    padding: 1rem;
+}
+
+.header {
+    width: 100%;
+    height: 3.5rem;
+    background-color: #83c5ec;
+    padding: 0 1.5rem;
+}
+
+.navbar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.list-item {
+    margin: 0 1rem;
+    padding: 0;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.list-item a:hover {
+    color: #ffffff;
+}
+.salary-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+.form-control {
+    margin: 1rem 0;
+}
+
+.form-control label,
+.form-control input {
+    display: block;
+    width: 100%;
+}
+
+.form-control input {
+    border: 1px solid#83c5ec;
+    font: inherit;
+    border-radius: 2px;
+}
+
+button {
+    font: inherit;
+    border: 1px solid #0010a1;
+    color: #0010a1;
+    background: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover,
+button:active {
+    background-color: #0010a1;
+    color: white;
+}
